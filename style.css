@@ -1,0 +1,80 @@
+
+
+/*
+Header section across all pages
+*/
+#lentil-header-wrap, #lentil-header-left {
+    display: flex;
+    background-color: blueviolet;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+    
+}
+
+#lentil-social-wrapper{
+ display: flex;
+ flex: row;
+ align-items: center;   
+
+}
+
+#lentil-header-social-fb{
+    display: flex;
+    max-height: 2rem;
+    padding: .25em;
+    }
+    /*
+    Header Nav Section
+    */
+
+#lentil-header-nav{
+    display: flex;
+    flex: row;
+    font-size: 1rem;
+    align-items: center;
+    justify-items: flex-end;
+    
+    
+}
+
+#lentil-header-nav-link{
+    display: flex;
+    
+}
+
+
+/*
+Content sections by number
+
+
+
+*/
+.section{
+    display: flex;
+    overflow-x: hidden;
+}
+main{
+    display: flex;
+    overflow: auto;
+  white-space: nowrap;
+}
+#lentil-main-section-1{
+    display: flex;
+    background-image: url(./img/Images-inspo/Lenticular-Clouds-at-Sunset.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 65vh;
+    min-width:75vw;
+}
+
+#lentil-static-content, #lentil-static-blog{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    font-size: 4rem;
+    background-color: darkgray;
+}
+
+
